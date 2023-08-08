@@ -5,54 +5,113 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NKCyber - Cyber Security Club</title>
   <style>
-    /* Add your CSS styles here (optional) */
     body {
       font-family: Arial, sans-serif;
-      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    .container {
+      max-width: 80%;
+      margin: 0 auto;
+      padding: 2rem;
+      text-align: center;
+    }
+    header {
+      background-color: #336699;
+      color: white;
+      padding: 1rem 0;
+    }
+    nav {
+      background-color: #336699;
+      padding: 1rem 0;
+    }
+    nav ul {
+      list-style: none;
       margin: 0;
       padding: 0;
     }
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 1rem;
-      text-align: center;
+    nav ul li {
+      display: inline;
+      margin-right: 1rem;
     }
-    /* Add more styles as needed */
+    .banner {
+      max-width: 100%;
+      height: auto;
+    }
+    .logo {
+      max-width: 100px;
+      height: auto;
+      margin: 1rem 0;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 1rem 0;
+    }
+    footer ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    footer ul li {
+      margin-right: 1rem;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>NKCyber</h1>
-    <p>Cyber Security Club</p>
+    <div class="container">
+      <img src="filler_logo.jpg" alt="NKCyber Logo" class="logo">
+      <h1>NKCyber</h1>
+      <p>Cyber Security Club</p>
+    </div>
   </header>
 
-  <main>
-    <section>
-      <h2>About Us</h2>
-      <p>Welcome to NKCyber, the Cyber Security Club dedicated to promoting awareness and education about cybersecurity. Our club aims to create a safe and secure online environment for everyone.</p>
-    </section>
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#cst">CST</a></li>
+        <li><a href="#rd">R&D</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <section>
-      <h2>Activities</h2>
-      <p>We organize various activities, including workshops, seminars, and CTF (Capture The Flag) competitions, to help our members enhance their cyber skills and stay up-to-date with the latest trends in cybersecurity.</p>
-    </section>
+  <div id="about" class="container">
+    <h2>About Us</h2>
+    <p>Welcome to NKCyber, your gateway to the world of cybersecurity...</p>
+  </div>
 
-    <section>
-      <h2>Join Us</h2>
-      <p>If you are passionate about cybersecurity or want to learn more about it, we welcome you to join our club. Membership is open to all students, regardless of their background or experience in cybersecurity.</p>
-    </section>
+  <div id="cst" class="container">
+    <h2>Cyber Security Training (CST)</h2>
+    <p>Empowering individuals with the skills to defend against...</p>
+  </div>
 
-    <section>
-      <h2>Contact</h2>
-      <p>If you have any questions or would like to get involved with NKCyber, please reach out to us at:</p>
-      <p>Email: contact@nkcyberclub.com</p>
-      <p>Phone: (123) 456-7890</p>
-    </section>
-  </main>
+  <div id="rd" class="container">
+    <h2>Research and Development (R&D)</h2>
+    <p>Exploring the cutting-edge realms of cybersecurity...</p>
+  </div>
+
+  <div id="contact" class="container">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or would like to get in touch...</p>
+  </div>
 
   <footer>
-    <p>&copy; 2023 NKCyber. All rights reserved.</p>
+    <div class="container">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <p>&copy; 2023 NKCyber. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
